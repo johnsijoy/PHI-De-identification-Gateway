@@ -59,16 +59,6 @@ The evaluation included:
 - Comparing results with Microsoft Presidio.
 - Comparing clinical summaries generated from original and masked notes.
 
-### Evaluation Results
-
-       Method           Precision   Recall  F1-score 
-
- Hybrid Detector         1.0000     1.0000  1.0000   
- Validation Evaluation   0.9869     1.0000  0.9934  
- Microsoft Presidio      0.6752     0.4072  0.5080   
-
-*Note: These are development and synthetic validation results, not independent benchmark results. Some test notes were used during rule refinement, and the additional validation annotations were generated from templates.*
-
 ### LLM Utility Testing
 Five original synthetic clinical notes and their masked versions were used to generate summaries with Gemini.
 
