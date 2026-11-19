@@ -36,11 +36,9 @@ In this project, I used a fine-tuned DistilBERT model along with regular express
 7. The original information is restored in the response using the local mapping.
 
 ### Main Functions
-1. deidentify(text)
-     Takes a clinical note as input and returns the masked note along with the local mapping.
+1. deidentify(text) - Takes a clinical note as input and returns the masked note along with the local mapping.
 
-2. rehydrate(response, mapping)
-     Takes the LLM response and local mapping as input and restores the original information.
+2. rehydrate(response, mapping) - Takes the LLM response and local mapping as input and restores the original information.
 
 ### Model Information
 - Base Model: DistilBERT
